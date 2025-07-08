@@ -1,0 +1,19 @@
+[project]
+name = "nadadotai"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "ani-anvesh",email = "64633387+ani-anvesh@users.noreply.github.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "tensorflow (>=2.19.0,<3.0.0)",
+    "ipykernel (>=6.29.5,<7.0.0)",
+    "music21 (>=9.7.1,<10.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
